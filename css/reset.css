@@ -1,0 +1,42 @@
+@font-face {
+  font-family: Play;
+  src: url('../Play/Play-Bold.ttf');
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul, ol, li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+html, body {
+  height: 100%;
+  line-height: 1;
+  font-size: 16px;
+  background-color: #0b1d26;
+  color: white;
+  font-family: Play;
+}
+.wrapper {
+  min-height: 100%;
+}
+
+._container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 35px 35px;
+}
