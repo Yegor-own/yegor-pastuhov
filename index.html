@@ -7,29 +7,37 @@
   <meta name='freelancehunt' content='b6a412f695c9c83'>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/index.css" type="text/css">
+  <link rel="stylesheet" href="css/menubar.css">
   <title>Пастухов Егор</title>
 </head>
 <body>
   <div class="wrapper">
     <section class="menubar">
-      <ul class="menubar__body">
-        <li class="menubar__item"><a href="" class="menubar__button">обо мне</a></li>
-        <li class="menubar__item"><a href="projects.html" class="menubar__button">работы</a></li>
-        <li class="menubar__item"><a href="skills.html" class="menubar__button">навыки</a></li>
-        <li class="menubar__item">
-          <ul class="item__inner">
-            <li class="inner-item"><a href="https://github.com/Yegor-own"><img src="img/github.svg" alt=""></a></li>
-            <li class="inner-item"><a href="pastuhov18912@gmail.com"><img src="img/google.svg" alt=""></a></li>
-            <li class="inner-item"><a href=""><img src="img/telegramw.png" width="30px" alt=""></a></li>
+      <div class="menubar__body">
+        <div class="menubar__burger">
+          <span></span>
+        </div>
+        <div class="menubar__menu">
+          <ul class="menubar__list">
+            <li class="menubar__item"><a href="" class="menubar__button">обо мне</a></li>
+            <li class="menubar__item"><a href="projects.html" class="menubar__button">работы</a></li>
+            <li class="menubar__item"><a href="skills.html" class="menubar__button">навыки</a></li>
+            <li class="menubar__item">
+              <ul class="item__inner">
+                <li class="inner-item"><a href="https://github.com/Yegor-own"><img src="img/github.svg" alt=""></a></li>
+                <li class="inner-item"><a href="pastuhov18912@gmail.com"><img src="img/google.svg" alt=""></a></li>
+                <li class="inner-item"><a href=""><img src="img/telegramw.png" width="30px" alt=""></a></li>
+              </ul>
+            </li>
           </ul>
-        </li>
-      </ul>
-      <div class="menubar__switcher">
-        <label class="switch">
-          <input type="checkbox">
-          <span id="switcher" class="slider round"></span>
-        </label>
-        <span class="switcher__title">Параллакс эффект</span>
+        </div>
+        <div class="menubar__switcher">
+          <label class="switch">
+            <input type="checkbox">
+            <span id="switcher" class="slider round"></span>
+          </label>
+          <span class="switcher__title">Параллакс эффект</span>
+        </div>
       </div>
     </section>
     <section class="parallax">
@@ -49,6 +57,8 @@
         <h2 class="content__title"><span>Пастухов Егор</span></h2>
         <div class="content__text">
           <p>Web-разработчик с опытом более 2 лет.</p>
+          <p>Статус: <span class="content__status">Junior Web Developer</span>.</p>
+          <p>Связаться со мной: <a href="https://github.com/Yegor-own">GitHub</a>, <a href="https://t.me/yegor_past">Telegram</a>, <span class="content__email">pastuhov18912@gmail.com</span>.</p>
         </div>
       </div>
     </section>
