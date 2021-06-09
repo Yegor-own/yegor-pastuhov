@@ -164,6 +164,9 @@ input:checked + .slider:before {
 }
 
 @media (max-width: 768px) {
+  body.lock {
+    overflow: hidden;
+  }
   .menubar {
     position: fixed;
     top: 0;
