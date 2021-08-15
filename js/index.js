@@ -44,19 +44,6 @@ window.onload = function () {
 			})
 		}
 	}
-	let on = true;
-	switcher.onclick = function() {
-		if (!on) {
-			on = true;
-			parallax(document.querySelector('body'));
-			console.log('on');
-		}
-		else {
-			on = false;
-			parallax(false);
-			console.log('off');
-		}
-	}
 
 	parallax(document.querySelector('body'));
 }
